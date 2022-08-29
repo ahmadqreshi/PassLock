@@ -1,0 +1,1656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B891C01FED08676BCA8042A0BFB396 /* GLScratchCardView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4A28A8F75AE1BEA7F93FB6EC8E6A2F66 /* GLScratchCardView.xib */; };
+		0ED1C11F1DA24187F35DF1E5F684CB85 /* MTPale.xib in Sources */ = {isa = PBXBuildFile; fileRef = A5A1F40D31891EE990AB137120834943 /* MTPale.xib */; };
+		203AAB4C5266E477BDEDBC218C50E08D /* MTVibrant.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7481AAC89D4CEBBB9F8D03AC968BBEDA /* MTVibrant.xib */; };
+		303FD1351B491B9A889F46E0C9435A05 /* Pods-PassLock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 479B0C65E6A96652A0E739F4418B081D /* Pods-PassLock-dummy.m */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3527CED889C58C4D36DC1585AD3E7EAD /* GLScratchCardImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D031AD0D3EBCA0737FE31BF91C9DF /* GLScratchCardImageView.swift */; };
+		4C828160C5FAD903D0ECCBC8E62A761C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C8289B9A0BAAA7FD6CD7E297E4C24BF /* Pods-PassLockTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 904DCBBC8791BCDDF0C622BBE042DC88 /* Pods-PassLockTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D18449B82ED2305277E4C1EAF0C2093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69BE0B5D522D0775BAF978760C3A9AC /* DropDown+Appearance.swift */; };
+		52FF5EA5E94828B4C066323C19095291 /* scratch_image_new.png in Sources */ = {isa = PBXBuildFile; fileRef = 0DE84835CAED414AD7D64B2F7C6FFF1F /* scratch_image_new.png */; };
+		572E711E806D4EF3FD578A2437635F03 /* GLScratchCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BBB044C2810583B59ADAAE573316C3 /* GLScratchCard-dummy.m */; };
+		583A21BF5E7FE4F13775D915A56F16C4 /* GLScratchCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4043476DB23BF5F7785CBC73302AB446 /* GLScratchCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A110EF3308E7F8D6AC5A56D8ED4C561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F1400EF806120DEF133D1F7C6B710CC /* scratch_image_new.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE84835CAED414AD7D64B2F7C6FFF1F /* scratch_image_new.png */; };
+		614F3542124F44F944D7D4D87DEF3775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		679AF50F47459CF3A628EFDA72B11559 /* MotionToastView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EABCF5A75C08CBF663D7DCACD19EF9 /* MotionToastView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B59FD7E877BD9A439B817691ACF598 /* MTVibrant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6AC42DF24ACCBAAB6DBCD7722B14EA /* MTVibrant.swift */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A6FBEC6B720C7B704CD01E24187F28B /* DropDownCell.xib */; };
+		72AF087B8C604AAF762AEE108640FE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66E3E383F328D4349EAF36C798C6B9C /* Assets.xcassets */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B9B98E1996F3F6D47ED123F2AB583 /* DPDConstants.swift */; };
+		7BBF2DD412A203B0C54B6277BE9791C2 /* MTPale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A64C8BE2D64E31820BC2B0C4D9AD379 /* MTPale.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A49369DD82C39A497CBEAA407535F2 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3D285493AC3A1977E8CF0BF197A51F /* DPDKeyboardListener.swift */; };
+		8AB9C4430ADD008BE9980578C11532B8 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FCFC85FB35694A9ADFE4D415B45B8 /* Extension.swift */; };
+		8C3269958DAC692B6C6FE31387C514C6 /* Pods-PassLock-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35523A6623DE047813E341C186168D16 /* Pods-PassLock-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE4974969110629351B787E5BF9F280 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = F237B84E84B60DF4F9A5FEF36AA12C15 /* Assets */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E59A233A2583BE0B7D28145F4EC27FEB /* DropDown-dummy.m */; };
+		913FE38C89D5ECC7B063B2BDD62203FC /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 0D4B557F620AF4B8C0DD989951F251EC /* Classes */; };
+		9A1AF9990C87F3F93682AA0487C6543F /* GLScratchCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A28A8F75AE1BEA7F93FB6EC8E6A2F66 /* GLScratchCardView.xib */; };
+		9DA68BEA559CC9ADA18A8225ADEEAF35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A63714BFEAA7174170FE9045B942B800 /* GLScratchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62048F0BA73E0FFE3977461010983DC /* GLScratchCardView.swift */; };
+		B2845AF08B03C788AC99250CB5FB16D6 /* MotionToastView-MotionToastView in Resources */ = {isa = PBXBuildFile; fileRef = DCFB0F0C91D0985BD14A432AC4787C38 /* MotionToastView-MotionToastView */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482A603EC8F302C5A2B469B7CE4CB978 /* DPDUIView+Extension.swift */; };
+		B7F89705B6BB90C192DB4E7614918250 /* Pods-PassLock-PassLockUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93344F493B1E7B14EB127A73B4FF7FB8 /* Pods-PassLock-PassLockUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAC38E1EA9ECEA5D93B4A4820CEA9522 /* Pods-PassLockTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE0EE70CA3A552AE96F0C2D18D60E82 /* Pods-PassLockTests-dummy.m */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3396BA890C35CBF1F222A62786BD6EB /* DropDownCell.swift */; };
+		D5510206B139688AC486873C065C7083 /* GLScratchCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8656759A20A73A49F7A56012AB7C3965 /* GLScratchCardController.swift */; };
+		D7A074C075E466E63E04C9BD49C4634A /* Pods-PassLock-PassLockUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D203111473EE4C68B55B091EE16D3D04 /* Pods-PassLock-PassLockUITests-dummy.m */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EBBF793C4C380E78C15558C8EA6419A /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE6248FD6A5CC45A4683C3FB1AB3A7EE /* MotionToastView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE3C4865AE26AEDBCE938012CC56CF0 /* MotionToastView-dummy.m */; };
+		F3C9E9C72E3081EBA3EEC33DAF0B2750 /* GLScratchCard-GLScratchCard in Resources */ = {isa = PBXBuildFile; fileRef = A44E08AB9C006B7B1166E900B8988614 /* GLScratchCard-GLScratchCard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21361B2F9FCF176AD0634A43E0762F56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F890DDCE0E90395E044F0141F4B095A;
+			remoteInfo = "MotionToastView-MotionToastView";
+		};
+		555119016280B623489C6FD315C30B7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC23714485D65561072E104E037200F3;
+			remoteInfo = "Pods-PassLock";
+		};
+		8EE65EA27A35CB4061CB6F25AEF831A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E065C213D04B69558A584C7A717E925D;
+			remoteInfo = "GLScratchCard-GLScratchCard";
+		};
+		9C9A6E2C5A87E07807E4C77A09D0CDB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		D72860F4C50A7E3EDF9B1F6C68A4F02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA159557478B6719316165883516084;
+			remoteInfo = GLScratchCard;
+		};
+		DB58AFC8F39547872F596FCD796B996F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		DD60BF6B948F0BF037F62AAE6FFF62EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFA159557478B6719316165883516084;
+			remoteInfo = GLScratchCard;
+		};
+		F4A5A43E85B576885CC290A73EFC5916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0C8392CE9553EFD7B2D911F805A8AE;
+			remoteInfo = MotionToastView;
+		};
+		F666AD3EE6B67980F089B09FBB345349 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0C8392CE9553EFD7B2D911F805A8AE;
+			remoteInfo = MotionToastView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05FFE7C11E7E7C3547101E5EDBC9FFF8 /* Pods-PassLockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassLockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0681D0920379B985506937FB4940887A /* Pods-PassLockTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PassLockTests"; path = Pods_PassLockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A64C8BE2D64E31820BC2B0C4D9AD379 /* MTPale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTPale.swift; path = Source/MotionToastStyles/MTPale.swift; sourceTree = "<group>"; };
+		0CAAEB655890564FF5DB6C37451A7316 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		0D4B557F620AF4B8C0DD989951F251EC /* Classes */ = {isa = PBXFileReference; includeInIndex = 1; name = Classes; path = MotionToastView/Classes; sourceTree = "<group>"; };
+		0DE84835CAED414AD7D64B2F7C6FFF1F /* scratch_image_new.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = scratch_image_new.png; path = GLScratchCard/Classes/scratch_image_new.png; sourceTree = "<group>"; };
+		13020F12C11F6AAB0C4C1B9BDC395B17 /* Pods-PassLockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassLockTests.release.xcconfig"; sourceTree = "<group>"; };
+		209099729394E7DC71DAEB740CCC6C7A /* Pods-PassLock-PassLockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassLock-PassLockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A4916154C9C0689A08086D1D96D2961 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		35523A6623DE047813E341C186168D16 /* Pods-PassLock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassLock-umbrella.h"; sourceTree = "<group>"; };
+		394D031AD0D3EBCA0737FE31BF91C9DF /* GLScratchCardImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GLScratchCardImageView.swift; path = GLScratchCard/Classes/GLScratchCardImageView.swift; sourceTree = "<group>"; };
+		4043476DB23BF5F7785CBC73302AB446 /* GLScratchCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLScratchCard-umbrella.h"; sourceTree = "<group>"; };
+		479B0C65E6A96652A0E739F4418B081D /* Pods-PassLock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassLock-dummy.m"; sourceTree = "<group>"; };
+		482A603EC8F302C5A2B469B7CE4CB978 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		4A28A8F75AE1BEA7F93FB6EC8E6A2F66 /* GLScratchCardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GLScratchCardView.xib; path = GLScratchCard/Classes/GLScratchCardView.xib; sourceTree = "<group>"; };
+		4D991930A5FD5C6A8002249D4B8CC3D2 /* Pods-PassLock */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PassLock"; path = Pods_PassLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F78FB60F7897A40B6408633757E868 /* MotionToastView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MotionToastView-Info.plist"; sourceTree = "<group>"; };
+		5529E1942045ED7B2392E62B8A6E05D3 /* Pods-PassLockTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassLockTests-Info.plist"; sourceTree = "<group>"; };
+		5A6FBEC6B720C7B704CD01E24187F28B /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		65AC0DE2A39634CCD307D49A9996E3C4 /* Pods-PassLock-PassLockUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassLock-PassLockUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66D2208118E1D5073D0D36FD648C75E0 /* Pods-PassLockTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassLockTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6846EC7A1ECF4B276B7AFB3B0D1826C9 /* Pods-PassLock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassLock.modulemap"; sourceTree = "<group>"; };
+		6B04DF592DD068252CE94EA8A46856E2 /* MotionToastView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionToastView.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		733E613AF7B542418BEC3E61E7C09196 /* Pods-PassLockTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassLockTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		739AC9C3036958228F72D8ABE9BD47AA /* Pods-PassLockTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassLockTests.modulemap"; sourceTree = "<group>"; };
+		7481AAC89D4CEBBB9F8D03AC968BBEDA /* MTVibrant.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTVibrant.xib; path = Source/MotionToastStyles/MTVibrant.xib; sourceTree = "<group>"; };
+		785DC7E2CEB718553E2222C4FC1BAF72 /* GLScratchCard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GLScratchCard; path = GLScratchCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EBBF793C4C380E78C15558C8EA6419A /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		81A49369DD82C39A497CBEAA407535F2 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		82523FAAA8221650F42A2A09975C8EE4 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		8656759A20A73A49F7A56012AB7C3965 /* GLScratchCardController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GLScratchCardController.swift; path = GLScratchCard/Classes/GLScratchCardController.swift; sourceTree = "<group>"; };
+		8A3D285493AC3A1977E8CF0BF197A51F /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		8B969F4DCBF5FD574EA7D0A11AE13271 /* ResourceBundle-MotionToastView-MotionToastView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MotionToastView-MotionToastView-Info.plist"; sourceTree = "<group>"; };
+		8E81ABB490586BC6CB87EC9F8F416C06 /* MotionToastView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionToastView.release.xcconfig; sourceTree = "<group>"; };
+		8EE0EE70CA3A552AE96F0C2D18D60E82 /* Pods-PassLockTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassLockTests-dummy.m"; sourceTree = "<group>"; };
+		904DCBBC8791BCDDF0C622BBE042DC88 /* Pods-PassLockTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassLockTests-umbrella.h"; sourceTree = "<group>"; };
+		93344F493B1E7B14EB127A73B4FF7FB8 /* Pods-PassLock-PassLockUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PassLock-PassLockUITests-umbrella.h"; sourceTree = "<group>"; };
+		9365E5ED04A058482BD490C672A8720A /* Pods-PassLock-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PassLock-frameworks.sh"; sourceTree = "<group>"; };
+		93BBB044C2810583B59ADAAE573316C3 /* GLScratchCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GLScratchCard-dummy.m"; sourceTree = "<group>"; };
+		9A7F6B4F66A62B4ECE8F14D9BE57DE4C /* Pods-PassLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassLock.release.xcconfig"; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CE3C4865AE26AEDBCE938012CC56CF0 /* MotionToastView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotionToastView-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44E08AB9C006B7B1166E900B8988614 /* GLScratchCard-GLScratchCard */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GLScratchCard-GLScratchCard"; path = GLScratchCard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A1F40D31891EE990AB137120834943 /* MTPale.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MTPale.xib; path = Source/MotionToastStyles/MTPale.xib; sourceTree = "<group>"; };
+		AB360CD326508BBF4428B0D3AD4DCFE3 /* Pods-PassLock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassLock-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB6AC42DF24ACCBAAB6DBCD7722B14EA /* MTVibrant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTVibrant.swift; path = Source/MotionToastStyles/MTVibrant.swift; sourceTree = "<group>"; };
+		B19CC27B135EA4E300E8A22C97BB2C48 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		B2EABCF5A75C08CBF663D7DCACD19EF9 /* MotionToastView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionToastView-umbrella.h"; sourceTree = "<group>"; };
+		B33C2F6F3025F57E626BB9C37E3B3703 /* MotionToastView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MotionToastView.modulemap; sourceTree = "<group>"; };
+		B615181BC0C78B0B24F838E6CF3B7339 /* GLScratchCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GLScratchCard-Info.plist"; sourceTree = "<group>"; };
+		BA3F37C8FCB627F9E8147A2D43F69986 /* Pods-PassLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassLock.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A9420BA92C6988919209EACA3C0013 /* GLScratchCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLScratchCard.debug.xcconfig; sourceTree = "<group>"; };
+		C3396BA890C35CBF1F222A62786BD6EB /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		C62048F0BA73E0FFE3977461010983DC /* GLScratchCardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GLScratchCardView.swift; path = GLScratchCard/Classes/GLScratchCardView.swift; sourceTree = "<group>"; };
+		C66FDF296BFF272D578C8D43CF733FA8 /* MotionToastView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MotionToastView; path = MotionToastView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E7ABAF57B013EA91135714992E312E /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		CD2B46B34642E05E5752638F0EE67789 /* Pods-PassLock-PassLockUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassLock-PassLockUITests-Info.plist"; sourceTree = "<group>"; };
+		CF8F8F055F878091E13F2DA9912CB484 /* Pods-PassLock-PassLockUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PassLock-PassLockUITests"; path = Pods_PassLock_PassLockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D203111473EE4C68B55B091EE16D3D04 /* Pods-PassLock-PassLockUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PassLock-PassLockUITests-dummy.m"; sourceTree = "<group>"; };
+		D42B9B98E1996F3F6D47ED123F2AB583 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		D66E3E383F328D4349EAF36C798C6B9C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MotionToastView/Assets.xcassets; sourceTree = "<group>"; };
+		D83E7891B2FB5C9F5888E33446041353 /* Pods-PassLock-PassLockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PassLock-PassLockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D97C166C9E1D83152FD90B385FEE35F3 /* GLScratchCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GLScratchCard-prefix.pch"; sourceTree = "<group>"; };
+		DA38206145CC21E4FED5FA958F64A117 /* Pods-PassLock-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassLock-Info.plist"; sourceTree = "<group>"; };
+		DCFB0F0C91D0985BD14A432AC4787C38 /* MotionToastView-MotionToastView */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MotionToastView-MotionToastView"; path = MotionToastView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF651F0FEFF016FE3B8C4F6550B313E7 /* Pods-PassLock-PassLockUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PassLock-PassLockUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF6FCFC85FB35694A9ADFE4D415B45B8 /* Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = Source/Extension.swift; sourceTree = "<group>"; };
+		E1A20E4957B7A1F6857A3ACAA3A9F556 /* GLScratchCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GLScratchCard.release.xcconfig; sourceTree = "<group>"; };
+		E326E536B4409613EE64A1454C79C855 /* Pods-PassLock-PassLockUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PassLock-PassLockUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E59A233A2583BE0B7D28145F4EC27FEB /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		E9D212543A5BC8B1BE6508C88C66A75C /* Pods-PassLock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PassLock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAEC041A7796D6552AF6BE3D76488A38 /* ResourceBundle-GLScratchCard-GLScratchCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GLScratchCard-GLScratchCard-Info.plist"; sourceTree = "<group>"; };
+		F1F005CB64E2AC5D042CE070A30D2DAF /* MotionToastView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionToastView-prefix.pch"; sourceTree = "<group>"; };
+		F237B84E84B60DF4F9A5FEF36AA12C15 /* Assets */ = {isa = PBXFileReference; includeInIndex = 1; name = Assets; path = MotionToastView/Assets; sourceTree = "<group>"; };
+		F66562609E3BDAC1F91A3071F867EDFA /* GLScratchCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GLScratchCard.modulemap; sourceTree = "<group>"; };
+		F69BE0B5D522D0775BAF978760C3A9AC /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		FE3C711F4F4134548522C1DD1FCBDAB0 /* Pods-PassLock-PassLockUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PassLock-PassLockUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E820D7CA04AF9E8388DEDC364E84EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C828160C5FAD903D0ECCBC8E62A761C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D83ABC16118CBA361B98197E96FDC73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614F3542124F44F944D7D4D87DEF3775 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29447C5C84A5C01501F15DF7D18D8568 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE87DCEAAF718EDDC3AE12DB3A1F78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBC370BAF7D9EAF2A375E06B19BEDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D18449B82ED2305277E4C1EAF0C2093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648A59C3CF1D800B7C138DC1DDC53245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A110EF3308E7F8D6AC5A56D8ED4C561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CF8A947CA44701610F3EC26F03BD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA68BEA559CC9ADA18A8225ADEEAF35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0424D1635CADD6D723449DFF42E2A4D4 /* GLScratchCard */ = {
+			isa = PBXGroup;
+			children = (
+				8656759A20A73A49F7A56012AB7C3965 /* GLScratchCardController.swift */,
+				394D031AD0D3EBCA0737FE31BF91C9DF /* GLScratchCardImageView.swift */,
+				C62048F0BA73E0FFE3977461010983DC /* GLScratchCardView.swift */,
+				4A28A8F75AE1BEA7F93FB6EC8E6A2F66 /* GLScratchCardView.xib */,
+				0DE84835CAED414AD7D64B2F7C6FFF1F /* scratch_image_new.png */,
+				3F388059C09AFE8409D5EF1AA3FB8CC4 /* Resources */,
+				466A338D81E3CB761B81FEE76EB28B13 /* Support Files */,
+			);
+			name = GLScratchCard;
+			path = GLScratchCard;
+			sourceTree = "<group>";
+		};
+		1232108AE5D36EF8D3E1ADDCF9BB10E6 /* Pods-PassLock-PassLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C711F4F4134548522C1DD1FCBDAB0 /* Pods-PassLock-PassLockUITests.modulemap */,
+				65AC0DE2A39634CCD307D49A9996E3C4 /* Pods-PassLock-PassLockUITests-acknowledgements.markdown */,
+				DF651F0FEFF016FE3B8C4F6550B313E7 /* Pods-PassLock-PassLockUITests-acknowledgements.plist */,
+				D203111473EE4C68B55B091EE16D3D04 /* Pods-PassLock-PassLockUITests-dummy.m */,
+				E326E536B4409613EE64A1454C79C855 /* Pods-PassLock-PassLockUITests-frameworks.sh */,
+				CD2B46B34642E05E5752638F0EE67789 /* Pods-PassLock-PassLockUITests-Info.plist */,
+				93344F493B1E7B14EB127A73B4FF7FB8 /* Pods-PassLock-PassLockUITests-umbrella.h */,
+				D83E7891B2FB5C9F5888E33446041353 /* Pods-PassLock-PassLockUITests.debug.xcconfig */,
+				209099729394E7DC71DAEB740CCC6C7A /* Pods-PassLock-PassLockUITests.release.xcconfig */,
+			);
+			name = "Pods-PassLock-PassLockUITests";
+			path = "Target Support Files/Pods-PassLock-PassLockUITests";
+			sourceTree = "<group>";
+		};
+		2EBDE714A3BDF8A7E2FF1AD66B1E0C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				785DC7E2CEB718553E2222C4FC1BAF72 /* GLScratchCard */,
+				A44E08AB9C006B7B1166E900B8988614 /* GLScratchCard-GLScratchCard */,
+				C66FDF296BFF272D578C8D43CF733FA8 /* MotionToastView */,
+				DCFB0F0C91D0985BD14A432AC4787C38 /* MotionToastView-MotionToastView */,
+				4D991930A5FD5C6A8002249D4B8CC3D2 /* Pods-PassLock */,
+				CF8F8F055F878091E13F2DA9912CB484 /* Pods-PassLock-PassLockUITests */,
+				0681D0920379B985506937FB4940887A /* Pods-PassLockTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F388059C09AFE8409D5EF1AA3FB8CC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		466A338D81E3CB761B81FEE76EB28B13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F66562609E3BDAC1F91A3071F867EDFA /* GLScratchCard.modulemap */,
+				93BBB044C2810583B59ADAAE573316C3 /* GLScratchCard-dummy.m */,
+				B615181BC0C78B0B24F838E6CF3B7339 /* GLScratchCard-Info.plist */,
+				D97C166C9E1D83152FD90B385FEE35F3 /* GLScratchCard-prefix.pch */,
+				4043476DB23BF5F7785CBC73302AB446 /* GLScratchCard-umbrella.h */,
+				C0A9420BA92C6988919209EACA3C0013 /* GLScratchCard.debug.xcconfig */,
+				E1A20E4957B7A1F6857A3ACAA3A9F556 /* GLScratchCard.release.xcconfig */,
+				EAEC041A7796D6552AF6BE3D76488A38 /* ResourceBundle-GLScratchCard-GLScratchCard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GLScratchCard";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F5F8F5FB66E2FDF3FFE963BF41C94B7 /* Pods-PassLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				739AC9C3036958228F72D8ABE9BD47AA /* Pods-PassLockTests.modulemap */,
+				733E613AF7B542418BEC3E61E7C09196 /* Pods-PassLockTests-acknowledgements.markdown */,
+				66D2208118E1D5073D0D36FD648C75E0 /* Pods-PassLockTests-acknowledgements.plist */,
+				8EE0EE70CA3A552AE96F0C2D18D60E82 /* Pods-PassLockTests-dummy.m */,
+				5529E1942045ED7B2392E62B8A6E05D3 /* Pods-PassLockTests-Info.plist */,
+				904DCBBC8791BCDDF0C622BBE042DC88 /* Pods-PassLockTests-umbrella.h */,
+				05FFE7C11E7E7C3547101E5EDBC9FFF8 /* Pods-PassLockTests.debug.xcconfig */,
+				13020F12C11F6AAB0C4C1B9BDC395B17 /* Pods-PassLockTests.release.xcconfig */,
+			);
+			name = "Pods-PassLockTests";
+			path = "Target Support Files/Pods-PassLockTests";
+			sourceTree = "<group>";
+		};
+		7FAF96FEAC41185424235F274C1D602D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82523FAAA8221650F42A2A09975C8EE4 /* DropDown.modulemap */,
+				E59A233A2583BE0B7D28145F4EC27FEB /* DropDown-dummy.m */,
+				0CAAEB655890564FF5DB6C37451A7316 /* DropDown-Info.plist */,
+				C8E7ABAF57B013EA91135714992E312E /* DropDown-prefix.pch */,
+				7EBBF793C4C380E78C15558C8EA6419A /* DropDown-umbrella.h */,
+				B19CC27B135EA4E300E8A22C97BB2C48 /* DropDown.debug.xcconfig */,
+				2A4916154C9C0689A08086D1D96D2961 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		8A8C876D4330E2B1EB14A48FA0BACBD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B33C2F6F3025F57E626BB9C37E3B3703 /* MotionToastView.modulemap */,
+				9CE3C4865AE26AEDBCE938012CC56CF0 /* MotionToastView-dummy.m */,
+				54F78FB60F7897A40B6408633757E868 /* MotionToastView-Info.plist */,
+				F1F005CB64E2AC5D042CE070A30D2DAF /* MotionToastView-prefix.pch */,
+				B2EABCF5A75C08CBF663D7DCACD19EF9 /* MotionToastView-umbrella.h */,
+				6B04DF592DD068252CE94EA8A46856E2 /* MotionToastView.debug.xcconfig */,
+				8E81ABB490586BC6CB87EC9F8F416C06 /* MotionToastView.release.xcconfig */,
+				8B969F4DCBF5FD574EA7D0A11AE13271 /* ResourceBundle-MotionToastView-MotionToastView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MotionToastView";
+			sourceTree = "<group>";
+		};
+		9DC53FAE9772D4B10E3FF1DF8EE4B8A6 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				D42B9B98E1996F3F6D47ED123F2AB583 /* DPDConstants.swift */,
+				8A3D285493AC3A1977E8CF0BF197A51F /* DPDKeyboardListener.swift */,
+				482A603EC8F302C5A2B469B7CE4CB978 /* DPDUIView+Extension.swift */,
+				81A49369DD82C39A497CBEAA407535F2 /* DropDown.swift */,
+				F69BE0B5D522D0775BAF978760C3A9AC /* DropDown+Appearance.swift */,
+				C3396BA890C35CBF1F222A62786BD6EB /* DropDownCell.swift */,
+				D29F7CC2954B586C79468DE4F714836A /* Resources */,
+				7FAF96FEAC41185424235F274C1D602D /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		AC83B4506790279CFB16CE4DFFB420BC /* Pods-PassLock */ = {
+			isa = PBXGroup;
+			children = (
+				6846EC7A1ECF4B276B7AFB3B0D1826C9 /* Pods-PassLock.modulemap */,
+				E9D212543A5BC8B1BE6508C88C66A75C /* Pods-PassLock-acknowledgements.markdown */,
+				AB360CD326508BBF4428B0D3AD4DCFE3 /* Pods-PassLock-acknowledgements.plist */,
+				479B0C65E6A96652A0E739F4418B081D /* Pods-PassLock-dummy.m */,
+				9365E5ED04A058482BD490C672A8720A /* Pods-PassLock-frameworks.sh */,
+				DA38206145CC21E4FED5FA958F64A117 /* Pods-PassLock-Info.plist */,
+				35523A6623DE047813E341C186168D16 /* Pods-PassLock-umbrella.h */,
+				BA3F37C8FCB627F9E8147A2D43F69986 /* Pods-PassLock.debug.xcconfig */,
+				9A7F6B4F66A62B4ECE8F14D9BE57DE4C /* Pods-PassLock.release.xcconfig */,
+			);
+			name = "Pods-PassLock";
+			path = "Target Support Files/Pods-PassLock";
+			sourceTree = "<group>";
+		};
+		B8FE5227B58FBDE54E1AFE9BA7CD3F38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC83B4506790279CFB16CE4DFFB420BC /* Pods-PassLock */,
+				1232108AE5D36EF8D3E1ADDCF9BB10E6 /* Pods-PassLock-PassLockUITests */,
+				6F5F8F5FB66E2FDF3FFE963BF41C94B7 /* Pods-PassLockTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D025B6686029CAE62B889FD9BE949F20 /* Pods */,
+				2EBDE714A3BDF8A7E2FF1AD66B1E0C48 /* Products */,
+				B8FE5227B58FBDE54E1AFE9BA7CD3F38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D025B6686029CAE62B889FD9BE949F20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DC53FAE9772D4B10E3FF1DF8EE4B8A6 /* DropDown */,
+				0424D1635CADD6D723449DFF42E2A4D4 /* GLScratchCard */,
+				FA160DB95A14C0BA8ECABEEA5A7B81CA /* MotionToastView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29F7CC2954B586C79468DE4F714836A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A6FBEC6B720C7B704CD01E24187F28B /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F633D13D0ABE447C16382062256FF28F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F237B84E84B60DF4F9A5FEF36AA12C15 /* Assets */,
+				D66E3E383F328D4349EAF36C798C6B9C /* Assets.xcassets */,
+				0D4B557F620AF4B8C0DD989951F251EC /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FA160DB95A14C0BA8ECABEEA5A7B81CA /* MotionToastView */ = {
+			isa = PBXGroup;
+			children = (
+				DF6FCFC85FB35694A9ADFE4D415B45B8 /* Extension.swift */,
+				0A64C8BE2D64E31820BC2B0C4D9AD379 /* MTPale.swift */,
+				A5A1F40D31891EE990AB137120834943 /* MTPale.xib */,
+				AB6AC42DF24ACCBAAB6DBCD7722B14EA /* MTVibrant.swift */,
+				7481AAC89D4CEBBB9F8D03AC968BBEDA /* MTVibrant.xib */,
+				F633D13D0ABE447C16382062256FF28F /* Resources */,
+				8A8C876D4330E2B1EB14A48FA0BACBD1 /* Support Files */,
+			);
+			name = MotionToastView;
+			path = MotionToastView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56C2E3DED8FC6F6483A1DD2A52D445C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8289B9A0BAAA7FD6CD7E297E4C24BF /* Pods-PassLockTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764F3C2DC1B4742745F4DD2FA1910392 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7F89705B6BB90C192DB4E7614918250 /* Pods-PassLock-PassLockUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BD52D0BCEA520F2D8A1757D35E0B3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583A21BF5E7FE4F13775D915A56F16C4 /* GLScratchCard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB5FD62A7A10B460D3614AE511A02A24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				679AF50F47459CF3A628EFDA72B11559 /* MotionToastView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCC02FB80FD8865936160B09C05E283 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3269958DAC692B6C6FE31387C514C6 /* Pods-PassLock-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F890DDCE0E90395E044F0141F4B095A /* MotionToastView-MotionToastView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F6C2206838A3D7C155950D7DF65479 /* Build configuration list for PBXNativeTarget "MotionToastView-MotionToastView" */;
+			buildPhases = (
+				EF66BCF6D81AA194A51E4482AA028CE1 /* Sources */,
+				29447C5C84A5C01501F15DF7D18D8568 /* Frameworks */,
+				D5246034F4D478E53DC517AD618AE0D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MotionToastView-MotionToastView";
+			productName = MotionToastView;
+			productReference = DCFB0F0C91D0985BD14A432AC4787C38 /* MotionToastView-MotionToastView */;
+			productType = "com.apple.product-type.bundle";
+		};
+		73A43E83E701461ED28DC340D3B62243 /* Pods-PassLock-PassLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC54DC5BF96C26655E4B7B4EEA637325 /* Build configuration list for PBXNativeTarget "Pods-PassLock-PassLockUITests" */;
+			buildPhases = (
+				764F3C2DC1B4742745F4DD2FA1910392 /* Headers */,
+				65F21E9211E36156A3A690262D239856 /* Sources */,
+				0D83ABC16118CBA361B98197E96FDC73 /* Frameworks */,
+				B2691242ED5E2A1D8153FD166634A42B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FEE4CA146C77C74CA7DF1FCE324BD9E /* PBXTargetDependency */,
+				2E2852EB41F9F6484B2AC8DA6D3E5FC9 /* PBXTargetDependency */,
+				8ABA3A8F1E9E3141036BA05478B1AE92 /* PBXTargetDependency */,
+			);
+			name = "Pods-PassLock-PassLockUITests";
+			productName = Pods_PassLock_PassLockUITests;
+			productReference = CF8F8F055F878091E13F2DA9912CB484 /* Pods-PassLock-PassLockUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC23714485D65561072E104E037200F3 /* Pods-PassLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C1FC663472DE27C76A686E98875B52 /* Build configuration list for PBXNativeTarget "Pods-PassLock" */;
+			buildPhases = (
+				EBCC02FB80FD8865936160B09C05E283 /* Headers */,
+				1BD77A9DD72D1E2BFA10D2BF8025C5E8 /* Sources */,
+				648A59C3CF1D800B7C138DC1DDC53245 /* Frameworks */,
+				738A4B2FDC5C3DED96EA8E80070D9215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE97CD0BED83D15A3604460E642D13ED /* PBXTargetDependency */,
+				6A1D89E97D22100D41DDD3C405BCCB06 /* PBXTargetDependency */,
+				8E5F1DC3489022CF32EC142159BE96FE /* PBXTargetDependency */,
+			);
+			name = "Pods-PassLock";
+			productName = Pods_PassLock;
+			productReference = 4D991930A5FD5C6A8002249D4B8CC3D2 /* Pods-PassLock */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFA159557478B6719316165883516084 /* GLScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B01E6D01F9C48D19321A3633424892A /* Build configuration list for PBXNativeTarget "GLScratchCard" */;
+			buildPhases = (
+				87BD52D0BCEA520F2D8A1757D35E0B3D /* Headers */,
+				87F352CE8C9DF3966634539524D1D7CE /* Sources */,
+				59BBC370BAF7D9EAF2A375E06B19BEDF /* Frameworks */,
+				9B357E45779DC60032A63E17EDB0F00B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D4F6BA76D0E21DC1CF047657592B827 /* PBXTargetDependency */,
+			);
+			name = GLScratchCard;
+			productName = GLScratchCard;
+			productReference = 785DC7E2CEB718553E2222C4FC1BAF72 /* GLScratchCard */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD0C8392CE9553EFD7B2D911F805A8AE /* MotionToastView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9906191C93929ABD412AE65DE494D508 /* Build configuration list for PBXNativeTarget "MotionToastView" */;
+			buildPhases = (
+				AB5FD62A7A10B460D3614AE511A02A24 /* Headers */,
+				C26CFD57FEFE4B17FD6781BCAE1B827A /* Sources */,
+				66CF8A947CA44701610F3EC26F03BD7B /* Frameworks */,
+				3294B19F0F1B646A329AB726DCA27404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA851F1E24FE4CA9DA6690C2F748339 /* PBXTargetDependency */,
+			);
+			name = MotionToastView;
+			productName = MotionToastView;
+			productReference = C66FDF296BFF272D578C8D43CF733FA8 /* MotionToastView */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2C6AFABFDD225B9E64D55C7815CB441 /* Pods-PassLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5827C205821D69CF144ACDAE9C1E2D24 /* Build configuration list for PBXNativeTarget "Pods-PassLockTests" */;
+			buildPhases = (
+				56C2E3DED8FC6F6483A1DD2A52D445C6 /* Headers */,
+				3DB811F341AE42469B3BB0B50BF67A70 /* Sources */,
+				02E820D7CA04AF9E8388DEDC364E84EC /* Frameworks */,
+				A37A08CF2B954934AED270A381824335 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058DA67AB23742750DAAEB3D03EF6443 /* PBXTargetDependency */,
+			);
+			name = "Pods-PassLockTests";
+			productName = Pods_PassLockTests;
+			productReference = 0681D0920379B985506937FB4940887A /* Pods-PassLockTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E065C213D04B69558A584C7A717E925D /* GLScratchCard-GLScratchCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211ED8200CFB09C07EBC69D37E30F164 /* Build configuration list for PBXNativeTarget "GLScratchCard-GLScratchCard" */;
+			buildPhases = (
+				2E80FC952D70C0F71EB21B1E7391A86E /* Sources */,
+				4BE87DCEAAF718EDDC3AE12DB3A1F78E /* Frameworks */,
+				11ED399162ADC0A0A91C9CDE5B445E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GLScratchCard-GLScratchCard";
+			productName = GLScratchCard;
+			productReference = A44E08AB9C006B7B1166E900B8988614 /* GLScratchCard-GLScratchCard */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2EBDE714A3BDF8A7E2FF1AD66B1E0C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				BFA159557478B6719316165883516084 /* GLScratchCard */,
+				E065C213D04B69558A584C7A717E925D /* GLScratchCard-GLScratchCard */,
+				CD0C8392CE9553EFD7B2D911F805A8AE /* MotionToastView */,
+				5F890DDCE0E90395E044F0141F4B095A /* MotionToastView-MotionToastView */,
+				BC23714485D65561072E104E037200F3 /* Pods-PassLock */,
+				73A43E83E701461ED28DC340D3B62243 /* Pods-PassLock-PassLockUITests */,
+				D2C6AFABFDD225B9E64D55C7815CB441 /* Pods-PassLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11ED399162ADC0A0A91C9CDE5B445E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1AF9990C87F3F93682AA0487C6543F /* GLScratchCardView.xib in Resources */,
+				5F1400EF806120DEF133D1F7C6B710CC /* scratch_image_new.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3294B19F0F1B646A329AB726DCA27404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2845AF08B03C788AC99250CB5FB16D6 /* MotionToastView-MotionToastView in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		738A4B2FDC5C3DED96EA8E80070D9215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B357E45779DC60032A63E17EDB0F00B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C9E9C72E3081EBA3EEC33DAF0B2750 /* GLScratchCard-GLScratchCard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A37A08CF2B954934AED270A381824335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2691242ED5E2A1D8153FD166634A42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5246034F4D478E53DC517AD618AE0D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE4974969110629351B787E5BF9F280 /* Assets in Resources */,
+				72AF087B8C604AAF762AEE108640FE55 /* Assets.xcassets in Resources */,
+				913FE38C89D5ECC7B063B2BDD62203FC /* Classes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BD77A9DD72D1E2BFA10D2BF8025C5E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303FD1351B491B9A889F46E0C9435A05 /* Pods-PassLock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E80FC952D70C0F71EB21B1E7391A86E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB811F341AE42469B3BB0B50BF67A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC38E1EA9ECEA5D93B4A4820CEA9522 /* Pods-PassLockTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65F21E9211E36156A3A690262D239856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A074C075E466E63E04C9BD49C4634A /* Pods-PassLock-PassLockUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F352CE8C9DF3966634539524D1D7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				572E711E806D4EF3FD578A2437635F03 /* GLScratchCard-dummy.m in Sources */,
+				D5510206B139688AC486873C065C7083 /* GLScratchCardController.swift in Sources */,
+				3527CED889C58C4D36DC1585AD3E7EAD /* GLScratchCardImageView.swift in Sources */,
+				A63714BFEAA7174170FE9045B942B800 /* GLScratchCardView.swift in Sources */,
+				01B891C01FED08676BCA8042A0BFB396 /* GLScratchCardView.xib in Sources */,
+				52FF5EA5E94828B4C066323C19095291 /* scratch_image_new.png in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C26CFD57FEFE4B17FD6781BCAE1B827A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB9C4430ADD008BE9980578C11532B8 /* Extension.swift in Sources */,
+				EE6248FD6A5CC45A4683C3FB1AB3A7EE /* MotionToastView-dummy.m in Sources */,
+				7BBF2DD412A203B0C54B6277BE9791C2 /* MTPale.swift in Sources */,
+				0ED1C11F1DA24187F35DF1E5F684CB85 /* MTPale.xib in Sources */,
+				68B59FD7E877BD9A439B817691ACF598 /* MTVibrant.swift in Sources */,
+				203AAB4C5266E477BDEDBC218C50E08D /* MTVibrant.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF66BCF6D81AA194A51E4482AA028CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058DA67AB23742750DAAEB3D03EF6443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PassLock";
+			target = BC23714485D65561072E104E037200F3 /* Pods-PassLock */;
+			targetProxy = 555119016280B623489C6FD315C30B7D /* PBXContainerItemProxy */;
+		};
+		0FEE4CA146C77C74CA7DF1FCE324BD9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 9C9A6E2C5A87E07807E4C77A09D0CDB5 /* PBXContainerItemProxy */;
+		};
+		2E2852EB41F9F6484B2AC8DA6D3E5FC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLScratchCard;
+			target = BFA159557478B6719316165883516084 /* GLScratchCard */;
+			targetProxy = D72860F4C50A7E3EDF9B1F6C68A4F02B /* PBXContainerItemProxy */;
+		};
+		3BA851F1E24FE4CA9DA6690C2F748339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MotionToastView-MotionToastView";
+			target = 5F890DDCE0E90395E044F0141F4B095A /* MotionToastView-MotionToastView */;
+			targetProxy = 21361B2F9FCF176AD0634A43E0762F56 /* PBXContainerItemProxy */;
+		};
+		6A1D89E97D22100D41DDD3C405BCCB06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GLScratchCard;
+			target = BFA159557478B6719316165883516084 /* GLScratchCard */;
+			targetProxy = DD60BF6B948F0BF037F62AAE6FFF62EF /* PBXContainerItemProxy */;
+		};
+		8ABA3A8F1E9E3141036BA05478B1AE92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionToastView;
+			target = CD0C8392CE9553EFD7B2D911F805A8AE /* MotionToastView */;
+			targetProxy = F666AD3EE6B67980F089B09FBB345349 /* PBXContainerItemProxy */;
+		};
+		8D4F6BA76D0E21DC1CF047657592B827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GLScratchCard-GLScratchCard";
+			target = E065C213D04B69558A584C7A717E925D /* GLScratchCard-GLScratchCard */;
+			targetProxy = 8EE65EA27A35CB4061CB6F25AEF831A3 /* PBXContainerItemProxy */;
+		};
+		8E5F1DC3489022CF32EC142159BE96FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionToastView;
+			target = CD0C8392CE9553EFD7B2D911F805A8AE /* MotionToastView */;
+			targetProxy = F4A5A43E85B576885CC290A73EFC5916 /* PBXContainerItemProxy */;
+		};
+		DE97CD0BED83D15A3604460E642D13ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = DB58AFC8F39547872F596FCD796B996F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D92F3FCDAAF3A08D740620EFBE7950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E81ABB490586BC6CB87EC9F8F416C06 /* MotionToastView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MotionToastView/MotionToastView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionToastView/MotionToastView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MotionToastView/MotionToastView.modulemap";
+				PRODUCT_MODULE_NAME = MotionToastView;
+				PRODUCT_NAME = MotionToastView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		23BB3495573BE351794ADC07B1056177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA3F37C8FCB627F9E8147A2D43F69986 /* Pods-PassLock.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassLock/Pods-PassLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassLock/Pods-PassLock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		64C11CCBE5C1912243C2802795947D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A20E4957B7A1F6857A3ACAA3A9F556 /* GLScratchCard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLScratchCard/GLScratchCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLScratchCard/GLScratchCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GLScratchCard/GLScratchCard.modulemap";
+				PRODUCT_MODULE_NAME = GLScratchCard;
+				PRODUCT_NAME = GLScratchCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70BB02F05B809DFFFAFFC6744807F0DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A20E4957B7A1F6857A3ACAA3A9F556 /* GLScratchCard.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLScratchCard";
+				IBSC_MODULE = GLScratchCard;
+				INFOPLIST_FILE = "Target Support Files/GLScratchCard/ResourceBundle-GLScratchCard-GLScratchCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GLScratchCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7605DB19163EB86EA92AD7DB533AB5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13020F12C11F6AAB0C4C1B9BDC395B17 /* Pods-PassLockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassLockTests/Pods-PassLockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassLockTests/Pods-PassLockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A92FC3FCAA65C072D28B99EA23D31C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FFE7C11E7E7C3547101E5EDBC9FFF8 /* Pods-PassLockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassLockTests/Pods-PassLockTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassLockTests/Pods-PassLockTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		999577C9470FD0E58DDEAAA109A933B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B04DF592DD068252CE94EA8A46856E2 /* MotionToastView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MotionToastView/MotionToastView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionToastView/MotionToastView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MotionToastView/MotionToastView.modulemap";
+				PRODUCT_MODULE_NAME = MotionToastView;
+				PRODUCT_NAME = MotionToastView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBF703D67EB5450AA5DE13EF5FFA163B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B04DF592DD068252CE94EA8A46856E2 /* MotionToastView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MotionToastView";
+				IBSC_MODULE = MotionToastView;
+				INFOPLIST_FILE = "Target Support Files/MotionToastView/ResourceBundle-MotionToastView-MotionToastView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = MotionToastView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4916154C9C0689A08086D1D96D2961 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C91A2588C09FCF2EFEDAC7A68B0D1DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83E7891B2FB5C9F5888E33446041353 /* Pods-PassLock-PassLockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD1BC4781691F81F899486A1CE4582FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209099729394E7DC71DAEB740CCC6C7A /* Pods-PassLock-PassLockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1A83C92284100ECB6B99FB0D8D8CF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E81ABB490586BC6CB87EC9F8F416C06 /* MotionToastView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MotionToastView";
+				IBSC_MODULE = MotionToastView;
+				INFOPLIST_FILE = "Target Support Files/MotionToastView/ResourceBundle-MotionToastView-MotionToastView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = MotionToastView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D20969E1317AEDAF53B13368151F51F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7F6B4F66A62B4ECE8F14D9BE57DE4C /* Pods-PassLock.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PassLock/Pods-PassLock-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PassLock/Pods-PassLock.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8ED8257E2C67B1AECB87681E8F4130B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A9420BA92C6988919209EACA3C0013 /* GLScratchCard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GLScratchCard/GLScratchCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GLScratchCard/GLScratchCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GLScratchCard/GLScratchCard.modulemap";
+				PRODUCT_MODULE_NAME = GLScratchCard;
+				PRODUCT_NAME = GLScratchCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B19CC27B135EA4E300E8A22C97BB2C48 /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E74C6110BDA5E234F33AD80DE95C2BC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A9420BA92C6988919209EACA3C0013 /* GLScratchCard.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GLScratchCard";
+				IBSC_MODULE = GLScratchCard;
+				INFOPLIST_FILE = "Target Support Files/GLScratchCard/ResourceBundle-GLScratchCard-GLScratchCard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = GLScratchCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211ED8200CFB09C07EBC69D37E30F164 /* Build configuration list for PBXNativeTarget "GLScratchCard-GLScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74C6110BDA5E234F33AD80DE95C2BC1 /* Debug */,
+				70BB02F05B809DFFFAFFC6744807F0DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B01E6D01F9C48D19321A3633424892A /* Build configuration list for PBXNativeTarget "GLScratchCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ED8257E2C67B1AECB87681E8F4130B /* Debug */,
+				64C11CCBE5C1912243C2802795947D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5827C205821D69CF144ACDAE9C1E2D24 /* Build configuration list for PBXNativeTarget "Pods-PassLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A92FC3FCAA65C072D28B99EA23D31C3 /* Debug */,
+				7605DB19163EB86EA92AD7DB533AB5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9906191C93929ABD412AE65DE494D508 /* Build configuration list for PBXNativeTarget "MotionToastView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				999577C9470FD0E58DDEAAA109A933B8 /* Debug */,
+				02D92F3FCDAAF3A08D740620EFBE7950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F6C2206838A3D7C155950D7DF65479 /* Build configuration list for PBXNativeTarget "MotionToastView-MotionToastView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF703D67EB5450AA5DE13EF5FFA163B /* Debug */,
+				D1A83C92284100ECB6B99FB0D8D8CF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C1FC663472DE27C76A686E98875B52 /* Build configuration list for PBXNativeTarget "Pods-PassLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23BB3495573BE351794ADC07B1056177 /* Debug */,
+				D20969E1317AEDAF53B13368151F51F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC54DC5BF96C26655E4B7B4EEA637325 /* Build configuration list for PBXNativeTarget "Pods-PassLock-PassLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C91A2588C09FCF2EFEDAC7A68B0D1DEC /* Debug */,
+				CD1BC4781691F81F899486A1CE4582FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

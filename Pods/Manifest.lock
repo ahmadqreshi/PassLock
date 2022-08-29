@@ -1,0 +1,24 @@
+PODS:
+  - DropDown (2.3.13)
+  - GLScratchCard (0.1.0)
+  - MotionToastView (0.1.10)
+
+DEPENDENCIES:
+  - DropDown
+  - GLScratchCard
+  - MotionToastView
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - GLScratchCard
+    - MotionToastView
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  GLScratchCard: 831ed1db01ef200c4617d816217571a99645962f
+  MotionToastView: e6e03c88141c2da252cce3f5c4512e76281b4754
+
+PODFILE CHECKSUM: d0bececeddd37b922c2a09864720a9ca4d769b41
+
+COCOAPODS: 1.11.3

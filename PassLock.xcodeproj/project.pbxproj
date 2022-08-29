@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4807B27027785143CD2E3BD6 /* Pods_PassLockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13B78E492781B17FE8436EE /* Pods_PassLockTests.framework */; };
+		6583A60D005501820FABE12A /* Pods_PassLock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC5A9286322C78F62E2886F /* Pods_PassLock.framework */; };
+		8405F12228A0FF7E001C207A /* AddAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405F12128A0FF7E001C207A /* AddAppVC.swift */; };
+		840E282528A3874700CA7BAB /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E282428A3874700CA7BAB /* String+Extension.swift */; };
+		840E282728A390DB00CA7BAB /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E282628A390DB00CA7BAB /* AppRouter.swift */; };
+		840E4A282898EF2A009FDF2D /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E4A272898EF2A009FDF2D /* AuthenticationVC.swift */; };
+		840E4A2B2898F0AB009FDF2D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E4A2A2898F0AB009FDF2D /* UIView+Extension.swift */; };
+		8410D63C28940A2F00424E60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D63B28940A2F00424E60 /* AppDelegate.swift */; };
+		8410D63E28940A2F00424E60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D63D28940A2F00424E60 /* SceneDelegate.swift */; };
+		8410D64028940A2F00424E60 /* TutorialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D63F28940A2F00424E60 /* TutorialVC.swift */; };
+		8410D64328940A2F00424E60 /* PreLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8410D64128940A2F00424E60 /* PreLogin.storyboard */; };
+		8410D64528940A3100424E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8410D64428940A3100424E60 /* Assets.xcassets */; };
+		8410D64828940A3100424E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8410D64628940A3100424E60 /* LaunchScreen.storyboard */; };
+		8410D65328940A3100424E60 /* PassLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D65228940A3100424E60 /* PassLockTests.swift */; };
+		8410D65D28940A3100424E60 /* PassLockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D65C28940A3100424E60 /* PassLockUITests.swift */; };
+		8410D65F28940A3100424E60 /* PassLockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D65E28940A3100424E60 /* PassLockUITestsLaunchTests.swift */; };
+		8410D66F289411A600424E60 /* TutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D66E289411A600424E60 /* TutorialCollectionViewCell.swift */; };
+		8410D6712894124200424E60 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8410D6702894124200424E60 /* BaseVC.swift */; };
+		842103B228A37DA100602904 /* CreateAccountVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842103B128A37DA100602904 /* CreateAccountVM.swift */; };
+		842103B428A37DD200602904 /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842103B328A37DD200602904 /* AccountModel.swift */; };
+		842AFF7C289B9CBE00C2431D /* ApplicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AFF7A289B9CBE00C2431D /* ApplicationTableViewCell.swift */; };
+		842AFF7D289B9CBE00C2431D /* ApplicationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842AFF7B289B9CBE00C2431D /* ApplicationTableViewCell.xib */; };
+		842AFF80289B9D9900C2431D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842AFF7F289B9D9900C2431D /* UITableView+Extension.swift */; };
+		84414A1B2897EFCB0036BFF6 /* ImageAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84414A1A2897EFCB0036BFF6 /* ImageAsset.swift */; };
+		84414A1D2897F0AF0036BFF6 /* StringConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84414A1C2897F0AF0036BFF6 /* StringConstant.swift */; };
+		84414A212897F8570036BFF6 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84414A202897F8570036BFF6 /* IntroVC.swift */; };
+		8466502E28A13DF3003B602A /* NumbersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8466502D28A13DF3003B602A /* NumbersCollectionViewCell.swift */; };
+		84744A9628B894340009D893 /* ShowDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84744A9528B894340009D893 /* ShowDetailsVC.swift */; };
+		84B444B228B4989F00F82A2D /* AppDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B444B128B4989F00F82A2D /* AppDataRepository.swift */; };
+		84B444B428B49E7E00F82A2D /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B444B328B49E7E00F82A2D /* ColorAssets.xcassets */; };
+		84B444B628B49EB200F82A2D /* ColorAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B444B528B49EB200F82A2D /* ColorAsset.swift */; };
+		84C25404289A3F1E009772AC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25403289A3F1E009772AC /* HomeVC.swift */; };
+		84C25407289A7C7B009772AC /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25406289A7C7B009772AC /* SideMenuVC.swift */; };
+		84C2540A289A7DC0009772AC /* SideMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25409289A7DC0009772AC /* SideMenuModel.swift */; };
+		84C2540D289A7DFB009772AC /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2540B289A7DFB009772AC /* SideMenuTableViewCell.swift */; };
+		84C2540E289A7DFB009772AC /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C2540C289A7DFB009772AC /* SideMenuTableViewCell.xib */; };
+		84C25411289A80A1009772AC /* ApplicationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25410289A80A1009772AC /* ApplicationsVC.swift */; };
+		84C25414289A8AC7009772AC /* FavouriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C25413289A8AC7009772AC /* FavouriteVC.swift */; };
+		84CDD0E528994DD3002A2DDA /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD0E428994DD3002A2DDA /* CreateAccountVC.swift */; };
+		84CDD0E828994EDC002A2DDA /* Stoyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDD0E728994EDC002A2DDA /* Stoyboards.swift */; };
+		84CDD0ED28995767002A2DDA /* PostLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDD0EC28995767002A2DDA /* PostLogin.storyboard */; };
+		84EE2BA928B646450033D9DD /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE2BA828B646450033D9DD /* WebVC.swift */; };
+		C858CAE3263D6B99647AB61E /* Pods_PassLock_PassLockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B22625C06B5D63792F578E /* Pods_PassLock_PassLockUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8410D64F28940A3100424E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8410D63028940A2F00424E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8410D63728940A2F00424E60;
+			remoteInfo = PassLock;
+		};
+		8410D65928940A3100424E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8410D63028940A2F00424E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8410D63728940A2F00424E60;
+			remoteInfo = PassLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053801F2E4DBA1F04A34E61B /* Pods-PassLock-PassLockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassLock-PassLockUITests.debug.xcconfig"; path = "Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09FE599231599DD3D9E8F850 /* Pods-PassLock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassLock.debug.xcconfig"; path = "Target Support Files/Pods-PassLock/Pods-PassLock.debug.xcconfig"; sourceTree = "<group>"; };
+		34B22625C06B5D63792F578E /* Pods_PassLock_PassLockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassLock_PassLockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC5A9286322C78F62E2886F /* Pods_PassLock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassLock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8405F12128A0FF7E001C207A /* AddAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAppVC.swift; sourceTree = "<group>"; };
+		840E282428A3874700CA7BAB /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		840E282628A390DB00CA7BAB /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		840E4A272898EF2A009FDF2D /* AuthenticationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
+		840E4A2A2898F0AB009FDF2D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8410D63828940A2F00424E60 /* PassLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8410D63B28940A2F00424E60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8410D63D28940A2F00424E60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8410D63F28940A2F00424E60 /* TutorialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialVC.swift; sourceTree = "<group>"; };
+		8410D64228940A2F00424E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PreLogin.storyboard; sourceTree = "<group>"; };
+		8410D64428940A3100424E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8410D64728940A3100424E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8410D64928940A3100424E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8410D64E28940A3100424E60 /* PassLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8410D65228940A3100424E60 /* PassLockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassLockTests.swift; sourceTree = "<group>"; };
+		8410D65828940A3100424E60 /* PassLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8410D65C28940A3100424E60 /* PassLockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassLockUITests.swift; sourceTree = "<group>"; };
+		8410D65E28940A3100424E60 /* PassLockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassLockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8410D66E289411A600424E60 /* TutorialCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewCell.swift; sourceTree = "<group>"; };
+		8410D6702894124200424E60 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		842103B128A37DA100602904 /* CreateAccountVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVM.swift; sourceTree = "<group>"; };
+		842103B328A37DD200602904 /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		842AFF7A289B9CBE00C2431D /* ApplicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationTableViewCell.swift; sourceTree = "<group>"; };
+		842AFF7B289B9CBE00C2431D /* ApplicationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ApplicationTableViewCell.xib; sourceTree = "<group>"; };
+		842AFF7F289B9D9900C2431D /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		84414A1A2897EFCB0036BFF6 /* ImageAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsset.swift; sourceTree = "<group>"; };
+		84414A1C2897F0AF0036BFF6 /* StringConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstant.swift; sourceTree = "<group>"; };
+		84414A202897F8570036BFF6 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		8466502D28A13DF3003B602A /* NumbersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersCollectionViewCell.swift; sourceTree = "<group>"; };
+		84744A9528B894340009D893 /* ShowDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsVC.swift; sourceTree = "<group>"; };
+		84B444B128B4989F00F82A2D /* AppDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataRepository.swift; sourceTree = "<group>"; };
+		84B444B328B49E7E00F82A2D /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		84B444B528B49EB200F82A2D /* ColorAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAsset.swift; sourceTree = "<group>"; };
+		84C25403289A3F1E009772AC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		84C25406289A7C7B009772AC /* SideMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		84C25409289A7DC0009772AC /* SideMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuModel.swift; sourceTree = "<group>"; };
+		84C2540B289A7DFB009772AC /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		84C2540C289A7DFB009772AC /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		84C25410289A80A1009772AC /* ApplicationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationsVC.swift; sourceTree = "<group>"; };
+		84C25413289A8AC7009772AC /* FavouriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteVC.swift; sourceTree = "<group>"; };
+		84CDD0E428994DD3002A2DDA /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		84CDD0E728994EDC002A2DDA /* Stoyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stoyboards.swift; sourceTree = "<group>"; };
+		84CDD0EC28995767002A2DDA /* PostLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostLogin.storyboard; sourceTree = "<group>"; };
+		84EE2BA828B646450033D9DD /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		B1D65CB0C6DFD079392D3C58 /* Pods-PassLockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassLockTests.debug.xcconfig"; path = "Target Support Files/Pods-PassLockTests/Pods-PassLockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B33A1FCC68BA464F446C47C1 /* Pods-PassLock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassLock.release.xcconfig"; path = "Target Support Files/Pods-PassLock/Pods-PassLock.release.xcconfig"; sourceTree = "<group>"; };
+		F13B78E492781B17FE8436EE /* Pods_PassLockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PassLockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CA5FA2EEF5C6236F13651C /* Pods-PassLock-PassLockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassLock-PassLockUITests.release.xcconfig"; path = "Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD6EB584BCF877BE75D5C0DB /* Pods-PassLockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PassLockTests.release.xcconfig"; path = "Target Support Files/Pods-PassLockTests/Pods-PassLockTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8410D63528940A2F00424E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6583A60D005501820FABE12A /* Pods_PassLock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410D64B28940A3100424E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4807B27027785143CD2E3BD6 /* Pods_PassLockTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410D65528940A3100424E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C858CAE3263D6B99647AB61E /* Pods_PassLock_PassLockUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C4D98473F7E88A87E791CB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC5A9286322C78F62E2886F /* Pods_PassLock.framework */,
+				34B22625C06B5D63792F578E /* Pods_PassLock_PassLockUITests.framework */,
+				F13B78E492781B17FE8436EE /* Pods_PassLockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840E4A292898EF42009FDF2D /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				840E4A272898EF2A009FDF2D /* AuthenticationVC.swift */,
+				8466502D28A13DF3003B602A /* NumbersCollectionViewCell.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		8410D62F28940A2F00424E60 = {
+			isa = PBXGroup;
+			children = (
+				8410D63A28940A2F00424E60 /* PassLock */,
+				8410D65128940A3100424E60 /* PassLockTests */,
+				8410D65B28940A3100424E60 /* PassLockUITests */,
+				8410D63928940A2F00424E60 /* Products */,
+				F395CB10BE9C7E2AC98B40C2 /* Pods */,
+				7C4D98473F7E88A87E791CB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8410D63928940A2F00424E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8410D63828940A2F00424E60 /* PassLock.app */,
+				8410D64E28940A3100424E60 /* PassLockTests.xctest */,
+				8410D65828940A3100424E60 /* PassLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8410D63A28940A2F00424E60 /* PassLock */ = {
+			isa = PBXGroup;
+			children = (
+				8410D66B2894112200424E60 /* AppController */,
+				84414A1E2897F0B70036BFF6 /* Utilities */,
+				84414A172897EF9B0036BFF6 /* Modules */,
+				84414A182897EFAD0036BFF6 /* Storyboard */,
+				84414A192897EFB70036BFF6 /* Resources */,
+				8410D64928940A3100424E60 /* Info.plist */,
+			);
+			path = PassLock;
+			sourceTree = "<group>";
+		};
+		8410D65128940A3100424E60 /* PassLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				8410D65228940A3100424E60 /* PassLockTests.swift */,
+			);
+			path = PassLockTests;
+			sourceTree = "<group>";
+		};
+		8410D65B28940A3100424E60 /* PassLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8410D65C28940A3100424E60 /* PassLockUITests.swift */,
+				8410D65E28940A3100424E60 /* PassLockUITestsLaunchTests.swift */,
+			);
+			path = PassLockUITests;
+			sourceTree = "<group>";
+		};
+		8410D66B2894112200424E60 /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				8410D63B28940A2F00424E60 /* AppDelegate.swift */,
+				8410D63D28940A2F00424E60 /* SceneDelegate.swift */,
+			);
+			path = AppController;
+			sourceTree = "<group>";
+		};
+		842AFF7E289B9CD200C2431D /* ApplicationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				842AFF7A289B9CBE00C2431D /* ApplicationTableViewCell.swift */,
+				842AFF7B289B9CBE00C2431D /* ApplicationTableViewCell.xib */,
+			);
+			path = ApplicationTableViewCell;
+			sourceTree = "<group>";
+		};
+		84414A172897EF9B0036BFF6 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8410D6702894124200424E60 /* BaseVC.swift */,
+				84B444B128B4989F00F82A2D /* AppDataRepository.swift */,
+				84414A1F2897F8260036BFF6 /* Tutorial */,
+				84414A222898002B0036BFF6 /* Intro */,
+				840E4A292898EF42009FDF2D /* Authentication */,
+				84CDD0E628994DF6002A2DDA /* CreateAccount */,
+				84C25408289A7CA3009772AC /* SideMenu */,
+				84C25405289A3F29009772AC /* Home */,
+				84C25412289A80B1009772AC /* Applications */,
+				84C25415289A90F9009772AC /* Favourites */,
+				84B444B728B4B5D800F82A2D /* AddApplication */,
+				84EE2BAA28B64F6F0033D9DD /* OpenWeb */,
+				84744A9728B894500009D893 /* ShowDetails */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		84414A182897EFAD0036BFF6 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8410D64128940A2F00424E60 /* PreLogin.storyboard */,
+				84CDD0EC28995767002A2DDA /* PostLogin.storyboard */,
+				8410D64628940A3100424E60 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		84414A192897EFB70036BFF6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8410D64428940A3100424E60 /* Assets.xcassets */,
+				84414A1A2897EFCB0036BFF6 /* ImageAsset.swift */,
+				84B444B328B49E7E00F82A2D /* ColorAssets.xcassets */,
+				84B444B528B49EB200F82A2D /* ColorAsset.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		84414A1E2897F0B70036BFF6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				84CDD0EB289952EB002A2DDA /* Constants */,
+				84CDD0EA289952E1002A2DDA /* Extensions */,
+				84CDD0E9289952D2002A2DDA /* AppUtilities */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		84414A1F2897F8260036BFF6 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				8410D63F28940A2F00424E60 /* TutorialVC.swift */,
+				8410D66E289411A600424E60 /* TutorialCollectionViewCell.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		84414A222898002B0036BFF6 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				84414A202897F8570036BFF6 /* IntroVC.swift */,
+			);
+			path = Intro;
+			sourceTree = "<group>";
+		};
+		84744A9728B894500009D893 /* ShowDetails */ = {
+			isa = PBXGroup;
+			children = (
+				84744A9528B894340009D893 /* ShowDetailsVC.swift */,
+			);
+			path = ShowDetails;
+			sourceTree = "<group>";
+		};
+		84B444B728B4B5D800F82A2D /* AddApplication */ = {
+			isa = PBXGroup;
+			children = (
+				8405F12128A0FF7E001C207A /* AddAppVC.swift */,
+			);
+			path = AddApplication;
+			sourceTree = "<group>";
+		};
+		84C25405289A3F29009772AC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				84C25403289A3F1E009772AC /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		84C25408289A7CA3009772AC /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				84C25406289A7C7B009772AC /* SideMenuVC.swift */,
+				84C25409289A7DC0009772AC /* SideMenuModel.swift */,
+				84C2540F289A7E02009772AC /* SideMenuTableViewCell */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		84C2540F289A7E02009772AC /* SideMenuTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84C2540B289A7DFB009772AC /* SideMenuTableViewCell.swift */,
+				84C2540C289A7DFB009772AC /* SideMenuTableViewCell.xib */,
+			);
+			path = SideMenuTableViewCell;
+			sourceTree = "<group>";
+		};
+		84C25412289A80B1009772AC /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				84C25410289A80A1009772AC /* ApplicationsVC.swift */,
+				842AFF7E289B9CD200C2431D /* ApplicationTableViewCell */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		84C25415289A90F9009772AC /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				84C25413289A8AC7009772AC /* FavouriteVC.swift */,
+			);
+			path = Favourites;
+			sourceTree = "<group>";
+		};
+		84CDD0E628994DF6002A2DDA /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				842103B328A37DD200602904 /* AccountModel.swift */,
+				84CDD0E428994DD3002A2DDA /* CreateAccountVC.swift */,
+				842103B128A37DA100602904 /* CreateAccountVM.swift */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		84CDD0E9289952D2002A2DDA /* AppUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				84CDD0E728994EDC002A2DDA /* Stoyboards.swift */,
+				840E282628A390DB00CA7BAB /* AppRouter.swift */,
+			);
+			path = AppUtilities;
+			sourceTree = "<group>";
+		};
+		84CDD0EA289952E1002A2DDA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				840E4A2A2898F0AB009FDF2D /* UIView+Extension.swift */,
+				842AFF7F289B9D9900C2431D /* UITableView+Extension.swift */,
+				840E282428A3874700CA7BAB /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84CDD0EB289952EB002A2DDA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				84414A1C2897F0AF0036BFF6 /* StringConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		84EE2BAA28B64F6F0033D9DD /* OpenWeb */ = {
+			isa = PBXGroup;
+			children = (
+				84EE2BA828B646450033D9DD /* WebVC.swift */,
+			);
+			path = OpenWeb;
+			sourceTree = "<group>";
+		};
+		F395CB10BE9C7E2AC98B40C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09FE599231599DD3D9E8F850 /* Pods-PassLock.debug.xcconfig */,
+				B33A1FCC68BA464F446C47C1 /* Pods-PassLock.release.xcconfig */,
+				053801F2E4DBA1F04A34E61B /* Pods-PassLock-PassLockUITests.debug.xcconfig */,
+				F4CA5FA2EEF5C6236F13651C /* Pods-PassLock-PassLockUITests.release.xcconfig */,
+				B1D65CB0C6DFD079392D3C58 /* Pods-PassLockTests.debug.xcconfig */,
+				FD6EB584BCF877BE75D5C0DB /* Pods-PassLockTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8410D63728940A2F00424E60 /* PassLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410D66228940A3100424E60 /* Build configuration list for PBXNativeTarget "PassLock" */;
+			buildPhases = (
+				37EA22B06C25955EDFBFC072 /* [CP] Check Pods Manifest.lock */,
+				8410D63428940A2F00424E60 /* Sources */,
+				8410D63528940A2F00424E60 /* Frameworks */,
+				8410D63628940A2F00424E60 /* Resources */,
+				F97C4729CD34EAA69C95C19F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassLock;
+			productName = PassLock;
+			productReference = 8410D63828940A2F00424E60 /* PassLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8410D64D28940A3100424E60 /* PassLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410D66528940A3100424E60 /* Build configuration list for PBXNativeTarget "PassLockTests" */;
+			buildPhases = (
+				60A856EEEDFE85FA30B75AD2 /* [CP] Check Pods Manifest.lock */,
+				8410D64A28940A3100424E60 /* Sources */,
+				8410D64B28940A3100424E60 /* Frameworks */,
+				8410D64C28940A3100424E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8410D65028940A3100424E60 /* PBXTargetDependency */,
+			);
+			name = PassLockTests;
+			productName = PassLockTests;
+			productReference = 8410D64E28940A3100424E60 /* PassLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8410D65728940A3100424E60 /* PassLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8410D66828940A3100424E60 /* Build configuration list for PBXNativeTarget "PassLockUITests" */;
+			buildPhases = (
+				565DB5610E04A5379DDD455F /* [CP] Check Pods Manifest.lock */,
+				8410D65428940A3100424E60 /* Sources */,
+				8410D65528940A3100424E60 /* Frameworks */,
+				8410D65628940A3100424E60 /* Resources */,
+				94F21276220C08A215EB4BCD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8410D65A28940A3100424E60 /* PBXTargetDependency */,
+			);
+			name = PassLockUITests;
+			productName = PassLockUITests;
+			productReference = 8410D65828940A3100424E60 /* PassLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8410D63028940A2F00424E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					8410D63728940A2F00424E60 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					8410D64D28940A3100424E60 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8410D63728940A2F00424E60;
+					};
+					8410D65728940A3100424E60 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 8410D63728940A2F00424E60;
+					};
+				};
+			};
+			buildConfigurationList = 8410D63328940A2F00424E60 /* Build configuration list for PBXProject "PassLock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8410D62F28940A2F00424E60;
+			productRefGroup = 8410D63928940A2F00424E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8410D63728940A2F00424E60 /* PassLock */,
+				8410D64D28940A3100424E60 /* PassLockTests */,
+				8410D65728940A3100424E60 /* PassLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8410D63628940A2F00424E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8410D64828940A3100424E60 /* LaunchScreen.storyboard in Resources */,
+				84B444B428B49E7E00F82A2D /* ColorAssets.xcassets in Resources */,
+				84C2540E289A7DFB009772AC /* SideMenuTableViewCell.xib in Resources */,
+				842AFF7D289B9CBE00C2431D /* ApplicationTableViewCell.xib in Resources */,
+				8410D64528940A3100424E60 /* Assets.xcassets in Resources */,
+				84CDD0ED28995767002A2DDA /* PostLogin.storyboard in Resources */,
+				8410D64328940A2F00424E60 /* PreLogin.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410D64C28940A3100424E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410D65628940A3100424E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37EA22B06C25955EDFBFC072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassLock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		565DB5610E04A5379DDD455F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassLock-PassLockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A856EEEDFE85FA30B75AD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PassLockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94F21276220C08A215EB4BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassLock-PassLockUITests/Pods-PassLock-PassLockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F97C4729CD34EAA69C95C19F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassLock/Pods-PassLock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PassLock/Pods-PassLock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PassLock/Pods-PassLock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8410D63428940A2F00424E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE2BA928B646450033D9DD /* WebVC.swift in Sources */,
+				84414A1B2897EFCB0036BFF6 /* ImageAsset.swift in Sources */,
+				8410D66F289411A600424E60 /* TutorialCollectionViewCell.swift in Sources */,
+				84B444B628B49EB200F82A2D /* ColorAsset.swift in Sources */,
+				84C25407289A7C7B009772AC /* SideMenuVC.swift in Sources */,
+				84C2540D289A7DFB009772AC /* SideMenuTableViewCell.swift in Sources */,
+				84414A212897F8570036BFF6 /* IntroVC.swift in Sources */,
+				84C2540A289A7DC0009772AC /* SideMenuModel.swift in Sources */,
+				84CDD0E528994DD3002A2DDA /* CreateAccountVC.swift in Sources */,
+				842AFF80289B9D9900C2431D /* UITableView+Extension.swift in Sources */,
+				840E282528A3874700CA7BAB /* String+Extension.swift in Sources */,
+				84414A1D2897F0AF0036BFF6 /* StringConstant.swift in Sources */,
+				840E282728A390DB00CA7BAB /* AppRouter.swift in Sources */,
+				84C25414289A8AC7009772AC /* FavouriteVC.swift in Sources */,
+				8410D64028940A2F00424E60 /* TutorialVC.swift in Sources */,
+				84C25411289A80A1009772AC /* ApplicationsVC.swift in Sources */,
+				84744A9628B894340009D893 /* ShowDetailsVC.swift in Sources */,
+				84B444B228B4989F00F82A2D /* AppDataRepository.swift in Sources */,
+				840E4A282898EF2A009FDF2D /* AuthenticationVC.swift in Sources */,
+				8466502E28A13DF3003B602A /* NumbersCollectionViewCell.swift in Sources */,
+				84C25404289A3F1E009772AC /* HomeVC.swift in Sources */,
+				8410D63C28940A2F00424E60 /* AppDelegate.swift in Sources */,
+				842103B228A37DA100602904 /* CreateAccountVM.swift in Sources */,
+				842AFF7C289B9CBE00C2431D /* ApplicationTableViewCell.swift in Sources */,
+				8410D63E28940A2F00424E60 /* SceneDelegate.swift in Sources */,
+				842103B428A37DD200602904 /* AccountModel.swift in Sources */,
+				84CDD0E828994EDC002A2DDA /* Stoyboards.swift in Sources */,
+				840E4A2B2898F0AB009FDF2D /* UIView+Extension.swift in Sources */,
+				8410D6712894124200424E60 /* BaseVC.swift in Sources */,
+				8405F12228A0FF7E001C207A /* AddAppVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410D64A28940A3100424E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8410D65328940A3100424E60 /* PassLockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8410D65428940A3100424E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8410D65F28940A3100424E60 /* PassLockUITestsLaunchTests.swift in Sources */,
+				8410D65D28940A3100424E60 /* PassLockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8410D65028940A3100424E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8410D63728940A2F00424E60 /* PassLock */;
+			targetProxy = 8410D64F28940A3100424E60 /* PBXContainerItemProxy */;
+		};
+		8410D65A28940A3100424E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8410D63728940A2F00424E60 /* PassLock */;
+			targetProxy = 8410D65928940A3100424E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8410D64128940A2F00424E60 /* PreLogin.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8410D64228940A2F00424E60 /* Base */,
+			);
+			name = PreLogin.storyboard;
+			sourceTree = "<group>";
+		};
+		8410D64628940A3100424E60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8410D64728940A3100424E60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8410D66028940A3100424E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8410D66128940A3100424E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8410D66328940A3100424E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09FE599231599DD3D9E8F850 /* Pods-PassLock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassLock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = PreLogin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PassLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8410D66428940A3100424E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33A1FCC68BA464F446C47C1 /* Pods-PassLock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PassLock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = PreLogin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PassLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8410D66628940A3100424E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D65CB0C6DFD079392D3C58 /* Pods-PassLockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PassLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassLock.app/PassLock";
+			};
+			name = Debug;
+		};
+		8410D66728940A3100424E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD6EB584BCF877BE75D5C0DB /* Pods-PassLockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PassLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PassLock.app/PassLock";
+			};
+			name = Release;
+		};
+		8410D66928940A3100424E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053801F2E4DBA1F04A34E61B /* Pods-PassLock-PassLockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PassLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassLock;
+			};
+			name = Debug;
+		};
+		8410D66A28940A3100424E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CA5FA2EEF5C6236F13651C /* Pods-PassLock-PassLockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.PassLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PassLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8410D63328940A2F00424E60 /* Build configuration list for PBXProject "PassLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410D66028940A3100424E60 /* Debug */,
+				8410D66128940A3100424E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410D66228940A3100424E60 /* Build configuration list for PBXNativeTarget "PassLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410D66328940A3100424E60 /* Debug */,
+				8410D66428940A3100424E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410D66528940A3100424E60 /* Build configuration list for PBXNativeTarget "PassLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410D66628940A3100424E60 /* Debug */,
+				8410D66728940A3100424E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8410D66828940A3100424E60 /* Build configuration list for PBXNativeTarget "PassLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8410D66928940A3100424E60 /* Debug */,
+				8410D66A28940A3100424E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8410D63028940A2F00424E60 /* Project object */;
+}

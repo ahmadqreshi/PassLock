@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-PassLock/Pods-PassLock-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework
+${BUILT_PRODUCTS_DIR}/GLScratchCard/GLScratchCard.framework
+${BUILT_PRODUCTS_DIR}/MotionToastView/MotionToastView.framework

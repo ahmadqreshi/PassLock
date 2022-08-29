@@ -1,0 +1,6 @@
+framework module Pods_PassLock_PassLockUITests {
+  umbrella header "Pods-PassLock-PassLockUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
